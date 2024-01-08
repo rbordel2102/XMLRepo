@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE BDsms [
+
+<BDsms>
+    <sms>
+        <telefono>955 55 66 55</telefono>
+        <fecha>1/7/2011</fecha>
+    </sms>
+</BDsms>

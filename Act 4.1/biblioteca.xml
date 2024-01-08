@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+
+    <librosnuevos xmlns="https://www.casadellibro.com/1">
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Reuel</apellido1>
+                    <apellido2>Tolkien</apellido2>
+                    <nombre>John Ronald</nombre>
+                </autor>
+            </autores>
+            <titulo>
+                El Señor de los Anillos: La Comunidad del Anillo
+            </titulo>
+            <editorial>
+                MINOTAURO
+            </editorial>
+            <fechaPublicacion>
+                18/09/2012
+            </fechaPublicacion>
+            <ISBN>
+                9788445000663
+            </ISBN>
+        </libro>
+
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>King</apellido1>
+                    <nombre>Stephen</nombre>
+                </autor>
+            </autores>
+            <titulo>
+                HOLLY
+            </titulo>
+            <editorial>
+                PLAZA Y JANES EDITORES
+            </editorial>
+            <fechaPublicacion>
+                21/09/2023
+            </fechaPublicacion>
+            <ISBN>
+                9788401031113
+            </ISBN>
+        </libro>
+
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Michaelides</apellido1>
+                    <nombre>Alex </nombre>
+                </autor>
+            </autores>
+            <titulo>
+                LA PACIENTE SILENCIOSA
+            </titulo>
+            <editorial>
+                DEBOLSILLO
+            </editorial>
+            <fechaPublicacion>
+                24/03/2022
+            </fechaPublicacion>
+            <ISBN>
+                9788466351935
+            </ISBN>
+        </libro>
+
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Frankl</apellido1>
+                    <nombre>Viktor</nombre>
+                </autor>
+            </autores>
+            <titulo>
+                EL HOMBRE EN BUSCA DE SENTIDO
+            </titulo>
+            <editorial>
+                HERDER
+            </editorial>
+            <fechaPublicacion>
+                04/12/2015
+            </fechaPublicacion>
+            <ISBN>
+                9788425432026
+            </ISBN>
+        </libro>
+
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Mcintire</apellido1>
+                    <nombre>Emily</nombre>
+                </autor>
+            </autores>
+            <titulo>
+                HOOKED: UNA HISTORIA DE NUNCA JAMAS.
+            </titulo>
+            <editorial>
+                MONTENA
+            </editorial>
+            <fechaPublicacion>
+                15/06/2023
+            </fechaPublicacion>
+            <ISBN>
+                9788419501738
+            </ISBN>
+        </libro>
+
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Sapkowski</apellido1>
+                    <nombre>Andrzej</nombre>
+                </autor>
+            </autores>
+            <titulo>
+                LA DAMA DEL LAGO
+            </titulo>
+            <editorial>
+                ALAMUT EDICIONES
+            </editorial>
+            <fechaPublicacion>
+                18/10/2011
+            </fechaPublicacion>
+            <ISBN>
+                9788498890624
+            </ISBN>
+        </libro>
+
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Sanderson</apellido1>
+                    <nombre>Brandon</nombre>
+                </autor>
+            </autores>
+            <titulo>
+                EL HOMBRE ILUMINADO
+            </titulo>
+            <editorial>
+                NOVA
+            </editorial>
+            <fechaPublicacion>
+                19/10/2023
+            </fechaPublicacion>
+            <ISBN>
+                9788419260123
+            </ISBN>
+        </libro>
+
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Follett</apellido1>
+
+                    <nombre>Ken</nombre>
+                </autor>
+            </autores>
+            <titulo>
+                LA ARMADURA DE LA LUZ
+            </titulo>
+            <editorial>
+                PLAZA Y JANES EDITORES
+            </editorial>
+            <fechaPublicacion>
+                26/09/2023
+            </fechaPublicacion>
+            <ISBN>
+                9788401030130
+            </ISBN>
+        </libro>
+
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Follett</apellido1>
+                    <nombre>Ken</nombre>
+                </autor>
+            </autores>
+            <titulo>
+                LOS PILARES DE LA TIERRA
+            </titulo>
+            <editorial>
+                PLAZA Y JANES EDITORES
+            </editorial>
+            <fechaPublicacion>
+                08/01/2001
+            </fechaPublicacion>
+            <ISBN>
+                9788401328510
+            </ISBN>
+        </libro>
+    </librosnuevos>
+
+    <librosantiguos xmlns="https://www.casadellibro.com/2">
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Clear</apellido1>
+                    <nombre>James</nombre>
+                </autor>
+            </autores>
+            <titulo>
+                HABITOS ATOMICOS
+            </titulo>
+            <editorial>
+                PLANETA
+            </editorial>
+            <fechaPublicacion>
+                08/09/2020
+            </fechaPublicacion>
+            <ISBN>
+                9788418118036
+            </ISBN>
+        </libro>
+    </librosantiguos>
+    
+</libreria>
