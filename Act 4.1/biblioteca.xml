@@ -1,213 +1,221 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE libreria 
+[
+<!ELEMENT libreria (libro*)>
+<!ELEMENT libro (codigoLibro, autor, titulo, editorial, edicion, fechaPublicacion, ISBN, NumeroPaginas)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT codigoLibro (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT edicion (#PCDATA)>
+<!ELEMENT fechaPublicacion (#PCDATA)>
+<!ELEMENT NumeroPaginas (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+]>
+
 <libreria>
 
-    <librosnuevos xmlns="https://www.casadellibro.com/1">
         <libro>
-            <autores>
-                <autor>
-                    <apellido1>Reuel</apellido1>
-                    <apellido2>Tolkien</apellido2>
-                    <nombre>John Ronald</nombre>
-                </autor>
-            </autores>
+            <codigoLibro>1</codigoLibro>
+            <autor>
+                John Ronald Tolkien Reuel
+            </autor>
             <titulo>
                 El Señor de los Anillos: La Comunidad del Anillo
             </titulo>
             <editorial>
                 MINOTAURO
             </editorial>
+            <edicion>1</edicion>
             <fechaPublicacion>
                 18/09/2012
             </fechaPublicacion>
             <ISBN>
                 9788445000663
             </ISBN>
+            <NumeroPaginas>806</NumeroPaginas>
         </libro>
 
         <libro>
-            <autores>
-                <autor>
-                    <apellido1>King</apellido1>
-                    <nombre>Stephen</nombre>
-                </autor>
-            </autores>
+            <codigoLibro>2</codigoLibro>
+            <autor>
+                Stephen King
+            </autor>
             <titulo>
                 HOLLY
             </titulo>
             <editorial>
                 PLAZA Y JANES EDITORES
             </editorial>
+            <edicion>4</edicion>
             <fechaPublicacion>
                 21/09/2023
             </fechaPublicacion>
             <ISBN>
                 9788401031113
             </ISBN>
+            <NumeroPaginas>476</NumeroPaginas>
         </libro>
 
         <libro>
-            <autores>
-                <autor>
-                    <apellido1>Michaelides</apellido1>
-                    <nombre>Alex </nombre>
-                </autor>
-            </autores>
+            <codigoLibro>3</codigoLibro>
+            <autor>
+                Alex Michaelides
+            </autor>
             <titulo>
                 LA PACIENTE SILENCIOSA
             </titulo>
             <editorial>
                 DEBOLSILLO
             </editorial>
+            <edicion>2</edicion>
             <fechaPublicacion>
                 24/03/2022
             </fechaPublicacion>
             <ISBN>
                 9788466351935
             </ISBN>
+            <NumeroPaginas>865</NumeroPaginas>
         </libro>
 
         <libro>
-            <autores>
-                <autor>
-                    <apellido1>Frankl</apellido1>
-                    <nombre>Viktor</nombre>
-                </autor>
-            </autores>
+            <codigoLibro>4</codigoLibro>
+            <autor>
+                Viktor Frankl
+            </autor>
             <titulo>
                 EL HOMBRE EN BUSCA DE SENTIDO
             </titulo>
             <editorial>
                 HERDER
             </editorial>
+            <edicion>6</edicion>
             <fechaPublicacion>
                 04/12/2015
             </fechaPublicacion>
             <ISBN>
                 9788425432026
             </ISBN>
+            <NumeroPaginas>321</NumeroPaginas>
         </libro>
 
         <libro>
-            <autores>
-                <autor>
-                    <apellido1>Mcintire</apellido1>
-                    <nombre>Emily</nombre>
-                </autor>
-            </autores>
+            <codigoLibro>5</codigoLibro>
+            <autor>
+                Emily Mcintire
+            </autor>
             <titulo>
                 HOOKED: UNA HISTORIA DE NUNCA JAMAS.
             </titulo>
             <editorial>
                 MONTENA
             </editorial>
+            <edicion>2</edicion>
             <fechaPublicacion>
                 15/06/2023
             </fechaPublicacion>
             <ISBN>
                 9788419501738
             </ISBN>
+            <NumeroPaginas>768</NumeroPaginas>
         </libro>
 
         <libro>
-            <autores>
-                <autor>
-                    <apellido1>Sapkowski</apellido1>
-                    <nombre>Andrzej</nombre>
-                </autor>
-            </autores>
+            <codigoLibro>6</codigoLibro>
+            <autor>
+                Andrzej Sapkowski
+            </autor>
             <titulo>
                 LA DAMA DEL LAGO
             </titulo>
             <editorial>
                 ALAMUT EDICIONES
             </editorial>
+            <edicion>5</edicion>
             <fechaPublicacion>
                 18/10/2011
             </fechaPublicacion>
             <ISBN>
                 9788498890624
             </ISBN>
+            <NumeroPaginas>427</NumeroPaginas>
         </libro>
 
         <libro>
-            <autores>
-                <autor>
-                    <apellido1>Sanderson</apellido1>
-                    <nombre>Brandon</nombre>
-                </autor>
-            </autores>
+            <codigoLibro>7</codigoLibro>
+            <autor>
+                Brandon Sanderson
+            </autor>
             <titulo>
                 EL HOMBRE ILUMINADO
             </titulo>
             <editorial>
                 NOVA
             </editorial>
+            <edicion>1</edicion>
             <fechaPublicacion>
                 19/10/2023
             </fechaPublicacion>
             <ISBN>
                 9788419260123
             </ISBN>
+            <NumeroPaginas>1147</NumeroPaginas>
         </libro>
 
         <libro>
-            <autores>
-                <autor>
-                    <apellido1>Follett</apellido1>
-
-                    <nombre>Ken</nombre>
-                </autor>
-            </autores>
+            <codigoLibro>8</codigoLibro>
+            <autor>
+                Ken Follett
+            </autor>
             <titulo>
                 LA ARMADURA DE LA LUZ
             </titulo>
             <editorial>
                 PLAZA Y JANES EDITORES
             </editorial>
+            <edicion>3</edicion>
             <fechaPublicacion>
                 26/09/2023
             </fechaPublicacion>
             <ISBN>
                 9788401030130
             </ISBN>
+            <NumeroPaginas>934</NumeroPaginas>
         </libro>
 
         <libro>
-            <autores>
-                <autor>
-                    <apellido1>Follett</apellido1>
-                    <nombre>Ken</nombre>
-                </autor>
-            </autores>
+            <codigoLibro>9</codigoLibro>
+            <autor>
+                Ken Follett
+            </autor>
             <titulo>
                 LOS PILARES DE LA TIERRA
             </titulo>
             <editorial>
                 PLAZA Y JANES EDITORES
             </editorial>
+            <edicion>2</edicion>
             <fechaPublicacion>
                 08/01/2001
             </fechaPublicacion>
             <ISBN>
                 9788401328510
             </ISBN>
+            <NumeroPaginas>267</NumeroPaginas>
         </libro>
-    </librosnuevos>
 
-    <librosantiguos xmlns="https://www.casadellibro.com/2">
         <libro>
-            <autores>
+            <codigoLibro>10</codigoLibro>
                 <autor>
-                    <apellido1>Clear</apellido1>
-                    <nombre>James</nombre>
+                    James Clear
                 </autor>
-            </autores>
             <titulo>
                 HABITOS ATOMICOS
             </titulo>
             <editorial>
                 PLANETA
             </editorial>
+            <edicion>5</edicion>
             <fechaPublicacion>
                 08/09/2020
             </fechaPublicacion>
@@ -215,6 +223,5 @@
                 9788418118036
             </ISBN>
         </libro>
-    </librosantiguos>
-    
+        <NumeroPaginas>654</NumeroPaginas>
 </libreria>
