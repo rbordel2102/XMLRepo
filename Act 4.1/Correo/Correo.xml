@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE correo 
+[
+<!ELEMENT correo (email*)>
+<!ELEMENT email (remitente, destinatario, asunto, cuerpo)>
+<!ELEMENT remitente (#PCDATA)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT cuerpo (#PCDATA)>
+]>
+
+<correo>
+
+      <email>
+          <remitente>
+              john@example.com
+          </remitente>
+          <destinatario>
+              jane@example.com
+          </destinatario>
+          <asunto>
+              Hola Jane
+          </asunto>
+          <cuerpo>
+              ¿Cómo has estado? Espero que todo vaya bien contigo.
+          </cuerpo>
+      </email>
+
+      <email>
+        <remitente>
+            info@empresa.com
+        </remitente>
+        <destinatario>
+            cliente@dominio.com
+        </destinatario>
+        <asunto>
+            Bienvenido a nuestra empresa
+        </asunto>
+        <cuerpo>
+            Estimado cliente,
+       
+            Gracias por registrarte en nuestro sitio web. Esperamos que disfrutes de nuestros servicios.
+       
+            Saludos,
+            Equipo de Empresa
+        </cuerpo>
+       </email>
+       
+       <email>
+        <remitente>
+            ventas@tienda.com
+        </remitente>
+        <destinatario>
+            cliente@dominio.com
+        </destinatario>
+        <asunto>
+            Tu pedido ha sido procesado
+        </asunto>
+        <cuerpo>
+            Estimado cliente,
+       
+            Tu pedido número #12345 ha sido procesado exitosamente. Te contactaremos pronto para coordinar la entrega.
+       
+            Saludos,
+            Equipo de Ventas
+        </cuerpo>
+       </email>
+       
+       <email>
+        <remitente>
+            soporte@servicio.com
+        </remitente>
+        <destinatario>
+            cliente@dominio.com
+        </destinatario>
+        <asunto>
+            Solicitud de soporte
+        </asunto>
+        <cuerpo>
+            Estimado cliente,
+       
+            Hemos recibido tu solicitud de soporte y estamos trabajando en ella. Te contactaremos en breve para proporcionarte más detalles.
+       
+            Saludos,
+            Equipo de Soporte
+        </cuerpo>
+       </email>
+
+</correo>

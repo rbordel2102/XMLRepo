@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE videoclub 
+[
+<!ELEMENT videoclub (pelicula*)>
+<!ELEMENT pelicula (codigoPelicula, director, titulo, duracion, genero, anoPublicacion, formato)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT codigoPelicula (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT anoPublicacion (#PCDATA)>
+<!ELEMENT formato (#PCDATA)>
+]>
+
+<videoclub>
+
+       <pelicula>
+           <codigoPelicula>1</codigoPelicula>
+           <director>
+               Christopher Nolan
+           </director>
+           <titulo>
+               Inception
+           </titulo>
+           <duracion>
+               148 minutos
+           </duracion>
+           <genero>
+               Ciencia ficción
+           </genero>
+           <anoPublicacion>
+               2010
+           </anoPublicacion>
+           <formato>
+               DVD
+           </formato>
+       </pelicula>
+
+       <pelicula>
+        <codigoPelicula>2</codigoPelicula>
+        <director>
+            Quentin Tarantino
+        </director>
+        <titulo>
+            Reservoir Dogs
+        </titulo>
+        <duracion>
+            99 minutos
+        </duracion>
+        <genero>
+            Drama, crimen
+        </genero>
+        <anoPublicacion>
+            1992
+        </anoPublicacion>
+        <formato>
+            Blu-ray
+        </formato>
+     </pelicula>
+     
+     <pelicula>
+        <codigoPelicula>3</codigoPelicula>
+        <director>
+            Francis Ford Coppola
+        </director>
+        <titulo>
+            Apocalypse Now
+        </titulo>
+        <duracion>
+            138 minutos
+        </duracion>
+        <genero>
+            Guerra, drama
+        </genero>
+        <anoPublicacion>
+            1979
+        </anoPublicacion>
+        <formato>
+            DVD
+        </formato>
+     </pelicula>
+     
+     <pelicula>
+        <codigoPelicula>4</codigoPelicula>
+        <director>
+            Stanley Kubrick
+        </director>
+        <titulo>
+            2001: Una odisea del espacio
+        </titulo>
+        <duracion>
+            149 minutos
+        </duracion>
+        <genero>
+            Ciencia ficción
+        </genero>
+        <anoPublicacion>
+            1968
+        </anoPublicacion>
+        <formato>
+            Blu-ray
+        </formato>
+     </pelicula>
+     
+     <pelicula>
+        <codigoPelicula>5</codigoPelicula>
+        <director>
+            Alfred Hitchcock
+        </director>
+        <titulo>
+            Psicosis
+        </titulo>
+        <duracion>
+            107 minutos
+        </duracion>
+        <genero>
+            Suspenso, misterio
+        </genero>
+        <anoPublicacion>
+            1960
+        </anoPublicacion>
+        <formato>
+            DVD
+        </formato>
+      </pelicula>
+      
+      <pelicula>
+        <codigoPelicula>6</codigoPelicula>
+        <director>
+            Stanley Kubrick
+        </director>
+        <titulo>
+            A Clockwork Orange
+        </titulo>
+        <duracion>
+            136 minutos
+        </duracion>
+        <genero>
+            Ciencia ficción, crimen
+        </genero>
+        <anoPublicacion>
+            1971
+        </anoPublicacion>
+        <formato>
+            Blu-ray
+        </formato>
+      </pelicula>
+      
+      <pelicula>
+        <codigoPelicula>7</codigoPelicula>
+        <director>
+            Martin Scorsese
+        </director>
+        <titulo>
+            Taxi Driver
+        </titulo>
+        <duracion>
+            113 minutos
+        </duracion>
+        <genero>
+            Drama, crimen
+        </genero>
+        <anoPublicacion>
+            1976
+        </anoPublicacion>
+        <formato>
+            DVD
+        </formato>
+      </pelicula>
+      
+      <pelicula>
+        <codigoPelicula>8</codigoPelicula>
+        <director>
+            David Fincher
+        </director>
+        <titulo>
+            Fight Club
+        </titulo>
+        <duracion>
+            139 minutos
+        </duracion>
+        <genero>
+            Drama, acción
+        </genero>
+        <anoPublicacion>
+            1999
+        </anoPublicacion>
+        <formato>
+            Blu-ray
+        </formato>
+      </pelicula>
+      
+      <pelicula>
+        <codigoPelicula>9</codigoPelicula>
+        <director>
+            Ridley Scott
+        </director>
+        <titulo>
+            Blade Runner
+        </titulo>
+        <duracion>
+            117 minutos
+        </duracion>
+        <genero>
+            Ciencia ficción, suspenso
+        </genero>
+        <anoPublicacion>
+            1982
+        </anoPublicacion>
+        <formato>
+            DVD
+        </formato>
+      </pelicula>
+      
+      <pelicula>
+        <codigoPelicula>10</codigoPelicula>
+        <director>
+            Steven Spielberg
+        </director>
+        <titulo>
+            Jurassic Park
+        </titulo>
+        <duracion>
+            127 minutos
+        </duracion>
+        <genero>
+            Ciencia ficción, aventuras
+        </genero>
+        <anoPublicacion>
+            1993
+        </anoPublicacion>
+        <formato>
+            Blu-ray
+        </formato>
+      </pelicula>
+
+</videoclub>
