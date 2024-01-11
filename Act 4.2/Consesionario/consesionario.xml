@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE consesionario SYSTEM "consesionario.dtd">
+<consesionario>
+
+ <coche>
+   <codigo>ABC123</codigo>
+   <marca>Toyota</marca>
+   <modelo>Corolla</modelo>
+   <matricula>XYZ789</matricula>
+   <potencia>120</potencia>
+   <plazas>5</plazas>
+   <puertas>4</puertas>
+ </coche>
+
+ <coche>
+    <codigo>DEF456</codigo>
+    <marca>Volswagen</marca>
+    <modelo>Polo</modelo>
+    <matricula>6038CZS</matricula>
+    <potencia>100</potencia>
+    <plazas>5</plazas>
+    <puertas>4</puertas>
+  </coche>
+
+  <coche>
+    <codigo>DEF456</codigo>
+    <marca>BMW</marca>
+    <modelo>Serie 3</modelo>
+    <matricula>UVW012</matricula>
+    <potencia>200</potencia>
+    <plazas>4</plazas>
+    <puertas>5</puertas>
+   </coche>
+   
+</consesionario>
