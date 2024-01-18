@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE videoclub 
-[
-<!ELEMENT videoclub (pelicula*)>
-<!ELEMENT pelicula (codigoPelicula, director, titulo, duracion, genero, anoPublicacion, formato)>
-<!ELEMENT director (#PCDATA)>
-<!ELEMENT codigoPelicula (#PCDATA)>
-<!ELEMENT titulo (#PCDATA)>
-<!ELEMENT duracion (#PCDATA)>
-<!ELEMENT genero (#PCDATA)>
-<!ELEMENT anoPublicacion (#PCDATA)>
-<!ELEMENT formato (#PCDATA)>
-]>
+<!DOCTYPE videoclub>
 
-<videoclub>
+<videoclub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="videoclub.xsd">
 
        <pelicula>
            <codigoPelicula>1</codigoPelicula>
