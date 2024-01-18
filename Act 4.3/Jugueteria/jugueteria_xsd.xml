@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE jugueteria>
-<jugueteria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jugueteria.xsd"></jugueteria>
-<jugueteria>
+<jugueteria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jugueteria.xsd">
 
  <barbie>
    <codigo>123ASD</codigo>
@@ -29,5 +28,4 @@
     <fabricacion>250000</fabricacion>
     <publico_edad>16</publico_edad>
    </barbie>
-   
 </jugueteria>
