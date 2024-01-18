@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jugueteria>
+<jugueteria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jugueteria.xsd"></jugueteria>
+<jugueteria>
+
+ <barbie>
+   <codigo>123ASD</codigo>
+   <año>2020</año>
+   <modelo>Con mascarilla</modelo>
+   <comercializacion>America</comercializacion>
+   <fabricacion>150000</fabricacion>
+   <publico_edad>10</publico_edad>
+ </barbie>
+
+ <barbie>
+    <codigo>540KLM</codigo>
+    <año>2005</año>
+    <modelo>Al parque</modelo>
+    <comercializacion>Asia</comercializacion>
+    <fabricacion>450000</fabricacion>
+    <publico_edad>10</publico_edad>
+  </barbie>
+
+  <barbie>
+    <codigo>789HBJ</codigo>
+    <año>2024</año>
+    <modelo>Discoteca</modelo>
+    <comercializacion>Europa</comercializacion>
+    <fabricacion>250000</fabricacion>
+    <publico_edad>16</publico_edad>
+   </barbie>
+   
+</jugueteria>
