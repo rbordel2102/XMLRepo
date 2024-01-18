@@ -1,4 +1,4 @@
-<!ELEMENT juguetes (barbie*)>
+<!ELEMENT jugueteria (barbie*)>
 <!ELEMENT barbie (codigo, año, modelo, comercializacion, fabricacion, publico_edad )>
 <!ELEMENT codigo (#PCDATA)>
 <!ELEMENT año (#PCDATA)>

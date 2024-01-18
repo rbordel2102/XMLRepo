@@ -1,4 +1,3 @@
-
 <!ELEMENT consesionario (coche*)>
 <!ELEMENT coche (codigo, marca, modelo, matricula, potencia, plazas, puertas)>
 <!ELEMENT codigo (#PCDATA)>
