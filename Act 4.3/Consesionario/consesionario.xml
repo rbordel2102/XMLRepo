@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE consesionario SYSTEM "consesionario.dtd">
+<!DOCTYPE consesionario SYSTEM "../../Act%204.2/Consesionario/consesionario.dtd">
 <consesionario>
 
  <coche>

@@ -1,9 +1,8 @@
-<!ELEMENT coches (coche*)>
-<!ELEMENT coche (codigo, marca, modelo, matricula, potencia, plazas, puertas)>
+<!ELEMENT juguetes (barbie*)>
+<!ELEMENT barbie (codigo, año, modelo, comercializacion, fabricacion, publico_edad )>
 <!ELEMENT codigo (#PCDATA)>
-<!ELEMENT marca (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
 <!ELEMENT modelo (#PCDATA)>
-<!ELEMENT matricula (#PCDATA)>
-<!ELEMENT potencia (#PCDATA)>
-<!ELEMENT plazas (#PCDATA)>
-<!ELEMENT puertas (#PCDATA)>
+<!ELEMENT comercializacion (#PCDATA)>
+<!ELEMENT fabricacion (#PCDATA)>
+<!ELEMENT publico_edad (#PCDATA)>
