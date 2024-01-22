@@ -1,0 +1,15 @@
+<!ELEMENT Tienda (Sucursal*)>
+<!ATTLIST Tienda>
+
+<!ELEMENT Sucursal (NombreVendedor, FechaContratacion, Producto*)>
+<!ATTLIST Sucursal codigo CDATA #REQUIRED>
+
+<!ELEMENT NombreVendedor (#PCDATA)>
+<!ELEMENT FechaContratacion (#PCDATA)>
+
+<!ELEMENT Producto (Descripcion, Precio, Stock)>
+<!ATTLIST Producto codigo CDATA #REQUIRED>
+
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+<!ELEMENT Stock (#PCDATA)>

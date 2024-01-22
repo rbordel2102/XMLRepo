@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tienda>
+<Tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vendedor.xsd">
+    <Sucursal codigo="S001">
+
+        <NombreVendedor>Ignacio</NombreVendedor>
+        <FechaContratacion>2024-01-22</FechaContratacion>
+
+        <Producto codigo="P001">
+            <Descripcion>Camisa azul</Descripcion>
+            <Precio>50</Precio>
+            <Stock>100</Stock>
+        </Producto>
+
+        <Producto codigo="P002">
+            <Descripcion>Pantalón negro</Descripcion>
+            <Precio>75</Precio>
+            <Stock>50</Stock>
+        </Producto>
+
+    </Sucursal>
+    
+</Tienda>

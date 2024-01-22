@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Gestoria>
+<Gestoria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Clientes.xsd">
+
+    <Sede codigo="M8958438">
+
+        <NombreEmpleado>Empleado1</NombreEmpleado>
+        <FechaAlta>2024-01-22</FechaAlta>
+
+        <Cliente codigo="ABC-123">
+            <Descripcion>Solvente</Descripcion>
+            <NumViviendas>2</NumViviendas>
+            <vivienda id="001" >
+                <CosteVivienda>200000</CosteVivienda>
+                <Resumen>Vivienda 1: Chalet, Vivienda 2: Chalet</Resumen>
+                <PlazoAlta>2024-06-22</PlazoAlta>
+            </vivienda>
+        </Cliente>
+        
+
+        <Cliente codigo="DEF-456">
+                <Descripcion>Insolvente</Descripcion>
+                <NumViviendas>1</NumViviendas>
+                <vivienda id="002" >
+                    <CosteVivienda>50000</CosteVivienda>
+                    <Resumen>Vivienda 1: Piso</Resumen>
+                    <PlazoAlta>2023-02-21</PlazoAlta>
+                </vivienda>
+        </Cliente>
+
+    </Sede>
+    
+</Gestoria>

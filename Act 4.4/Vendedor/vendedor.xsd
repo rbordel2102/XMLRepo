@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Tienda">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Sucursal" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="NombreVendedor" type="xs:string"/>
+                            <xs:element name="FechaContratacion" type="xs:date"/>
+                            <xs:element name="Producto" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Descripcion" type="xs:string"/>
+                                        <xs:element name="Precio" type="xs:decimal"/>
+                                        <xs:element name="Stock" type="xs:int"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="codigo" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
