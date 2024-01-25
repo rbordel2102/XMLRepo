@@ -1,0 +1,31 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="modulosDAM" type="ModulosDAMType"/>
+
+  <xs:complexType name="ModulosDAMType">
+    <xs:sequence>
+      <xs:element name="moduloProfesional" type="ModuloProfesionalType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ModuloProfesionalType">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="contenidos" type="ContenidosType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ContenidosType">
+    <xs:sequence>
+      <xs:element name="unidadDidactica" type="UnidadDidacticaType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="UnidadDidacticaType">
+    <xs:sequence>
+      <xs:element name="tipo" type="xs:string"/>
+      <xs:element name="descripcion" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

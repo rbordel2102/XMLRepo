@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modulosDAM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DAM.xsd" >
+
+    <moduloProfesional>
+        <nombre>Programación</nombre>
+        <contenidos>
+            <unidadDidactica>
+                <tipo>Teoría</tipo>
+                <descripcion>Fundamentos de programación estructurada</descripcion>
+            </unidadDidactica>
+            <unidadDidactica>
+                <tipo>Práctica</tipo>
+                <descripcion>Desarrollo de algoritmos en un lenguaje de programación</descripcion>
+            </unidadDidactica>
+        </contenidos>
+    </moduloProfesional>
+
+    <moduloProfesional>
+        <nombre>Bases de Datos</nombre>
+        <contenidos>
+            <unidadDidactica>
+                <tipo>Teoría</tipo>
+                <descripcion>Modelado y diseño de bases de datos</descripcion>
+            </unidadDidactica>
+            <unidadDidactica>
+                <tipo>Práctica</tipo>
+                <descripcion>Implementación y gestión de bases de datos</descripcion>
+            </unidadDidactica>
+        </contenidos>
+    </moduloProfesional>
+
+    <moduloProfesional>
+        <nombre>Entornos de Desarrollo</nombre>
+        <contenidos>
+            <unidadDidactica>
+                <tipo>Teoría</tipo>
+                <descripcion>Configuración y uso de entornos de desarrollo integrado</descripcion>
+            </unidadDidactica>
+            <unidadDidactica>
+                <tipo>Práctica</tipo>
+                <descripcion>Desarrollo y depuración de aplicaciones</descripcion>
+            </unidadDidactica>
+        </contenidos>
+    </moduloProfesional>
+
+    <moduloProfesional>
+        <nombre>Interfaces de Usuario</nombre>
+        <contenidos>
+            <unidadDidactica>
+                <tipo>Teoría</tipo>
+                <descripcion>Diseño y evaluación de interfaces de usuario</descripcion>
+            </unidadDidactica>
+            <unidadDidactica>
+                <tipo>Práctica</tipo>
+                <descripcion>Implementación de interfaces de usuario</descripcion>
+            </unidadDidactica>
+        </contenidos>
+    </moduloProfesional>
+
+</modulosDAM>
