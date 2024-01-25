@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Gestoria SYSTEM "./clientes.dtd">
 <Gestoria>
 
     <Sede codigo="M8958438">

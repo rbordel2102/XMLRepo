@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DAM>
+    <alumno>
+        <NIF>12345678A</NIF>
+        <resultado>apto</resultado>
+        <observaciones>Excelente desempeño en programación Java</observaciones>
+        <IP>192.168.1.1</IP>
+    </alumno>
+    
+    <alumno>
+        <NIF>87654321B</NIF>
+        <resultado>No apto</resultado>
+        <MAC>00:1A:2B:3C:4D:5F</MAC>
+
+    </alumno>
+
+</DAM>
