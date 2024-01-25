@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE DAM SYSTEM "./DAM.dtd">
-<DAM>
+<DAM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DAM.xsd">
     <alumno>
         <NIF>12345678A</NIF>
         <resultado>apto</resultado>

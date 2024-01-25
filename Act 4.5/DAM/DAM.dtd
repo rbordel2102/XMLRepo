@@ -1,9 +1,7 @@
-<!ELEMENT alumnado (alumno+)>
+<!ELEMENT DAM (alumno+)>
 <!ELEMENT alumno (NIF, resultado, observaciones?, (IP | MAC))>
 <!ELEMENT NIF (#PCDATA)>
 <!ELEMENT resultado (#PCDATA)>
 <!ELEMENT observaciones (#PCDATA)>
 <!ELEMENT IP (#PCDATA)>
 <!ELEMENT MAC (#PCDATA)>
-    
-<!ATTLIST alumno id ID #REQUIRED>

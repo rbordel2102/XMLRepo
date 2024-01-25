@@ -1,0 +1,23 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="DAM" type="DAMType"/>
+
+  <xs:complexType name="DAMType">
+    <xs:sequence>
+      <xs:element name="alumno" type="AlumnoType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="AlumnoType">
+    <xs:sequence>
+      <xs:element name="NIF" type="xs:string"/>
+      <xs:element name="resultado" type="xs:string"/>
+      <xs:element name="observaciones" type="xs:string" minOccurs="0"/>
+      <xs:choice>
+        <xs:element name="IP" type="xs:string"/>
+        <xs:element name="MAC" type="xs:string"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
