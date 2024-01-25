@@ -1,0 +1,7 @@
+<!ELEMENT Universidad (estudiante+)>
+<!ELEMENT estudiante (matricula, nombre, edad, carrera)>
+
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT carrera (#PCDATA)>

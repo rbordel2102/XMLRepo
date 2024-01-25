@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Universidad" type="UniversidadType"/>
+
+  <xs:complexType name="UniversidadType">
+    <xs:sequence>
+      <xs:element name="estudiante" type="EstudianteType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="EstudianteType">
+    <xs:sequence>
+      <xs:element name="matricula" type="xs:string"/>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="edad" type="xs:integer"/>
+      <xs:element name="carrera" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

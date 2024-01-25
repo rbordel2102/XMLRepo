@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Universidad SYSTEM "./Universidad.dtd">
+<Universidad>
+    <estudiante>
+        <matricula>1234</matricula>
+        <nombre>Juan Pérez</nombre>
+        <edad>20</edad>
+        <carrera>Ingeniería Informática</carrera>
+    </estudiante>
+    
+    <estudiante>
+        <matricula>5678</matricula>
+        <nombre>Maria González</nombre>
+        <edad>22</edad>
+        <carrera>Arquitectura</carrera>
+    </estudiante>
+</Universidad>

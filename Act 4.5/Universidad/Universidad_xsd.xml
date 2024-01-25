@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Universidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Universidad.xsd">
+    <estudiante>
+        <matricula>1234</matricula>
+        <nombre>Juan Pérez</nombre>
+        <edad>20</edad>
+        <carrera>Ingeniería Informática</carrera>
+    </estudiante>
+    
+    <estudiante>
+        <matricula>5678</matricula>
+        <nombre>Maria González</nombre>
+        <edad>22</edad>
+        <carrera>Arquitectura</carrera>
+    </estudiante>
+</Universidad>
