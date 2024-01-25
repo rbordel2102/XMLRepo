@@ -1,0 +1,42 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="EdicionesAranda" type="InformeRegionalVentasType"/>
+
+  <xs:complexType name="InformeRegionalVentasType">
+    <xs:sequence>
+      <xs:element name="InformeRegionalVentas" type="InformeRegionalVentasElementType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="InformeRegionalVentasElementType">
+    <xs:sequence>
+      <xs:element name="Descripcion" type="xs:string"/>
+      <xs:element name="Region" type="RegionType"/>
+    </xs:sequence>
+    <xs:attribute name="fecha" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="RegionType">
+    <xs:sequence>
+      <xs:element name="Norte" type="TrimestreType"/>
+      <xs:element name="Centro" type="TrimestreType"/>
+      <xs:element name="Sur" type="TrimestreType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TrimestreType">
+    <xs:sequence>
+      <xs:element name="Trimestre1" type="librosVendidosType"/>
+      <xs:element name="Trimestre2" type="librosVendidosType"/>
+      <xs:element name="Trimestre3" type="librosVendidosType"/>
+      <xs:element name="Trimestre4" type="librosVendidosType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="librosVendidosType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string"/>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>

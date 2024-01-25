@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EdicionesAranda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="editorial.xsd">
+    <InformeRegionalVentas fecha="30/12/2009">
+        <Descripcion>Informe de ventas para las regiones Norte, Centro y Sur</Descripcion>
+        <Region>
+            <Norte>
+                <Trimestre1>
+                    <librosVendidos>24000</librosVendidos>
+                </Trimestre1>
+                <Trimestre2>
+                    <librosVendidos>38600</librosVendidos>
+                </Trimestre2>
+                <Trimestre3>
+                    <librosVendidos></librosVendidos>
+                </Trimestre3>
+                <Trimestre4>
+                    <librosVendidos></librosVendidos>
+                </Trimestre4>
+            </Norte>
+            <Centro>
+                <Trimestre1>
+                    <librosVendidos></librosVendidos>
+                </Trimestre1>
+                <Trimestre2>
+                    <librosVendidos>16080</librosVendidos>
+                </Trimestre2>
+                <Trimestre3>
+                    <librosVendidos>25000</librosVendidos>
+                </Trimestre3>
+                <Trimestre4>
+                    <librosVendidos>29000</librosVendidos>
+                </Trimestre4>
+            </Centro>
+            <Sur>
+                <Trimestre1>
+                    <librosVendidos>27000</librosVendidos>
+                </Trimestre1>
+                <Trimestre2>
+                    <librosVendidos>31400</librosVendidos>
+                </Trimestre2>
+                <Trimestre3>
+                    <librosVendidos>40100</librosVendidos>
+                </Trimestre3>
+                <Trimestre4>
+                    <librosVendidos>30000</librosVendidos>
+                </Trimestre4>
+            </Sur>
+        </Region>
+    </InformeRegionalVentas>
+</EdicionesAranda>
