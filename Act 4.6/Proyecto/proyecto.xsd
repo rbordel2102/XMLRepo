@@ -1,0 +1,34 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="proyectos" type="ProyectosType"/>
+
+  <xs:complexType name="ProyectosType">
+    <xs:sequence>
+      <xs:element name="proyecto" type="ProyectoType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ProyectoType">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="responsable" type="xs:string"/>
+      <xs:element name="descripcion" type="xs:string"/>
+      <xs:element name="tareas" type="TareasType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TareasType">
+    <xs:sequence>
+      <xs:element name="tarea" type="TareaType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TareaType">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="prioridad" type="xs:string"/>
+      <xs:element name="estado" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

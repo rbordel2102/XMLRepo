@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proyectos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="proyecto.xsd" >
+    <proyecto>
+        <nombre>Sistema de Gestión de Tareas</nombre>
+        <responsable>Juan Pérez</responsable>
+        <descripcion>Desarrollo de una aplicación web para la gestión eficiente de tareas y proyectos.</descripcion>
+        <tareas>
+            <tarea>
+                <nombre>Implementar base de datos</nombre>
+                <prioridad>Alta</prioridad>
+                <estado>En progreso</estado>
+            </tarea>
+            <tarea>
+                <nombre>Diseñar interfaz de usuario</nombre>
+                <prioridad>Media</prioridad>
+                <estado>Pendiente</estado>
+            </tarea>
+        </tareas>
+    </proyecto>
+
+    <proyecto>
+        <nombre>Aplicación Móvil de Noticias</nombre>
+        <responsable>Maria González</responsable>
+        <descripcion>Desarrollo de una aplicación móvil para la visualización de noticias de última hora.</descripcion>
+        <tareas>
+            <tarea>
+                <nombre>Integrar API de noticias</nombre>
+                <prioridad>Alta</prioridad>
+                <estado>Pendiente</estado>
+            </tarea>
+            <tarea>
+                <nombre>Implementar funcionalidad de búsqueda</nombre>
+                <prioridad>Baja</prioridad>
+                <estado>En progreso</estado>
+            </tarea>
+        </tareas>
+    </proyecto>
+
+</proyectos>

@@ -1,0 +1,10 @@
+<!ELEMENT proyectos (proyecto+)>
+<!ELEMENT proyecto (nombre, responsable, descripcion, tareas)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT responsable (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT tareas (tarea+)>
+<!ELEMENT tarea (nombre, prioridad, estado)>
+<!ELEMENT nombre_tarea (#PCDATA)>
+<!ELEMENT prioridad (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
