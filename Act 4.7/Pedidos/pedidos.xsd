@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="PedidoCompra">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Cliente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Direccion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="calle" type="xs:string"/>
+                                        <xs:element name="ciudad" type="xs:string"/>
+                                        <xs:element name="codigoPostal" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="nombre" type="xs:string" use="required"/>
+                        <xs:attribute name="email" type="xs:string" use="required"/>
+                        <xs:attribute name="telefono" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Productos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Producto" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Detalles" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="codigo" type="xs:string" use="required"/>
+                                    <xs:attribute name="cantidad" type="xs:integer" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Total" type="xs:decimal"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

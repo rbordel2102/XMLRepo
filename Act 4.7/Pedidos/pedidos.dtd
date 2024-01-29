@@ -1,0 +1,15 @@
+<!ELEMENT PedidoCompra (Cliente,Productos, Total)>
+<!ELEMENT Cliente (Direccion)>
+<!ATTLIST Cliente nombre CDATA #REQUIRED
+email CDATA #REQUIRED
+telefono CDATA #REQUIRED>
+<!ELEMENT Direccion (calle, ciudad, codigoPostal)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT codigoPostal (#PCDATA)>
+<!ELEMENT Productos (Producto*)>
+<!ELEMENT Producto (Detalles)>
+<!ATTLIST Producto codigo CDATA #REQUIRED
+cantidad CDATA #REQUIRED>
+<!ELEMENT Detalles (#PCDATA)>
+<!ELEMENT Total (#PCDATA)>

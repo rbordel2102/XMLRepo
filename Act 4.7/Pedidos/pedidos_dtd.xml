@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PedidoCompra SYSTEM "./pedidos.dtd">
+<PedidoCompra>
+    <Cliente nombre="Juan Perez" email="juanperez@gmail.com" telefono="123456789">
+        <Direccion>
+            <calle>Blas Infante</calle>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28080</codigoPostal>
+        </Direccion>
+    </Cliente>
+    <Productos>
+        <Producto codigo="123" cantidad="2">
+            <Detalles>Libro de Programación - Autor: John Doe</Detalles>
+        </Producto>
+        <Producto codigo="456" cantidad="1">
+            <Detalles>Manual de Uso - Autor: Jane Smith</Detalles>
+        </Producto>
+    </Productos>
+    <Total>500</Total>
+</PedidoCompra>
