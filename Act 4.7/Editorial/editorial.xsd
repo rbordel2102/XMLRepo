@@ -131,7 +131,6 @@
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <!-- Repite para las regiones Centro y Sur -->
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
