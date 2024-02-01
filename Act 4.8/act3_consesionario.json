@@ -1,0 +1,33 @@
+{
+    "consesionario": {
+       "coche": [
+         {
+           "codigo": "ABC123",
+           "marca": "Toyota",
+           "modelo": "Corolla",
+           "matricula": "XYZ789",
+           "potencia": "120",
+           "plazas": "5",
+           "puertas": "4"
+         },
+         {
+           "codigo": "DEF456",
+           "marca": "Volswagen",
+           "modelo": "Polo",
+           "matricula": "6038CZS",
+           "potencia": "100",
+           "plazas": "5",
+           "puertas": "4"
+         },
+         {
+           "codigo": "DEF456",
+           "marca": "BMW",
+           "modelo": "Serie 3",
+           "matricula": "UVW012",
+           "potencia": "200",
+           "plazas": "4",
+           "puertas": "5"
+         }
+       ]
+    }
+}   

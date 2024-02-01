@@ -1,0 +1,17 @@
+{
+    "DAM": {
+       "alumno": [
+         {
+           "NIF": "12345678A",
+           "resultado": "apto",
+           "observaciones": "Excelente desempeño en programación Java",
+           "IP": "192.168.1.1"
+         },
+         {
+           "NIF": "87654321B",
+           "resultado": "No apto",
+           "MAC": "00:1A:2B:3C:4D:5F"
+         }
+       ]
+    }
+}

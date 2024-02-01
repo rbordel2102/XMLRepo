@@ -1,0 +1,33 @@
+{
+    "Gestoria": {
+       "Sede": {
+         "@codigo": "M8958438",
+         "NombreEmpleado": "Empleado1",
+         "FechaAlta": "2024-01-22",
+         "Cliente": [
+           {
+             "@codigo": "ABC-123",
+             "Descripcion": "Solvente",
+             "NumViviendas": "2",
+             "vivienda": {
+               "@id": "001",
+               "CosteVivienda": "200000",
+               "Resumen": "Vivienda 1: Chalet, Vivienda 2: Chalet",
+               "PlazoAlta": "2024-06-22"
+             }
+           },
+           {
+             "@codigo": "DEF-456",
+             "Descripcion": "Insolvente",
+             "NumViviendas": "1",
+             "vivienda": {
+               "@id": "002",
+               "CosteVivienda": "50000",
+               "Resumen": "Vivienda 1: Piso",
+               "PlazoAlta": "2023-02-21"
+             }
+           }
+         ]
+       }
+    }
+}
