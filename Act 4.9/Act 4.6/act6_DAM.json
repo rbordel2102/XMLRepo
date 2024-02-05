@@ -1,0 +1,66 @@
+{
+    "modulosDAM": {
+       "moduloProfesional": [
+         {
+           "nombre": "Programación",
+           "contenidos": {
+             "unidadDidactica": [
+               {
+                 "tipo": "Teoría",
+                 "descripcion": "Fundamentos de programación estructurada"
+               },
+               {
+                 "tipo": "Práctica",
+                 "descripcion": "Desarrollo de algoritmos en un lenguaje de programación"
+               }
+             ]
+           }
+         },
+         {
+           "nombre": "Bases de Datos",
+           "contenidos": {
+             "unidadDidactica": [
+               {
+                 "tipo": "Teoría",
+                 "descripcion": "Modelado y diseño de bases de datos"
+               },
+               {
+                 "tipo": "Práctica",
+                 "descripcion": "Implementación y gestión de bases de datos"
+               }
+             ]
+           }
+         },
+         {
+           "nombre": "Entornos de Desarrollo",
+           "contenidos": {
+             "unidadDidactica": [
+               {
+                 "tipo": "Teoría",
+                 "descripcion": "Configuración y uso de entornos de desarrollo integrado"
+               },
+               {
+                 "tipo": "Práctica",
+                 "descripcion": "Desarrollo y depuración de aplicaciones"
+               }
+             ]
+           }
+         },
+         {
+           "nombre": "Interfaces de Usuario",
+           "contenidos": {
+             "unidadDidactica": [
+               {
+                 "tipo": "Teoría",
+                 "descripcion": "Diseño y evaluación de interfaces de usuario"
+               },
+               {
+                 "tipo": "Práctica",
+                 "descripcion": "Implementación de interfaces de usuario"
+               }
+             ]
+           }
+         }
+       ]
+    }
+}

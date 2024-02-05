@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+    "Gestoria": {
+    "type": "object",
+    "properties": {
+    "Sede": {
+    "type": "object",
+    "properties": {
+        "@codigo": { "type": "string" },
+        "NombreEmpleado": { "type": "string" },
+        "FechaAlta": { "type": "string", "format": "date" },
+    "Cliente": {
+    "type": "array",
+    "items": {
+    "type": "object",
+    "properties": {
+        "@codigo": { "type": "string" },
+        "Descripcion": { "type": "string" },
+        "NumViviendas": { "type": "string" },
+        "vivienda": {
+        "type": "object",
+    "properties": {
+        "@id": { "type": "string" },
+        "CosteVivienda": { "type": "string" },
+        "Resumen": { "type": "string" },
+        "PlazoAlta": { "type": "string", "format": "date" }
+    },
+    "required": ["@id", "CosteVivienda", "Resumen", "PlazoAlta"]
+    }
+    },
+    "required": ["@codigo", "Descripcion", "NumViviendas", "vivienda"]
+    }
+    }
+    },
+    "required": ["@codigo", "NombreEmpleado", "FechaAlta", "Cliente"]
+    }
+    },
+    "required": ["Sede"]
+    }
+    },
+    "required": ["Gestoria"]
+}
