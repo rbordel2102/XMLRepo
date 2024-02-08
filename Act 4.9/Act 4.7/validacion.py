@@ -76,17 +76,17 @@ archivo_json = '''
                  "librosVendidos": "38600"
                },
                "Trimestre3": {
-                 "librosVendidos": ""
+                 "librosVendidos": "43678"
                },
                "Trimestre4": {
-                 "librosVendidos": ""
+                 "librosVendidos": "98654"
                }
              }
            },
            "Centro": {
              "Trimestres": {
                "Trimestre1": {
-                 "librosVendidos": ""
+                 "librosVendidos": "47824"
                },
                "Trimestre2": {
                  "librosVendidos": "16080"
