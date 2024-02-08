@@ -7,19 +7,21 @@ schema = {
     "type": "object",
     "properties": {
     "EdicionesAranda": {
-    "type": "object",
+    "type": "object", "minLength":1,
     "properties": {
         "InformeRegionalVentas": {
-        "type": "object",
+        "type": "object", 
+        "minLength":1,
         "properties": {
-        "@fecha": { "type": "string", "format": "date" },
-        "Descripcion": { "type": "string" },
+        "@fecha": { "type": "string", "format": "date", "minLength":1 },
+        "Descripcion": { "type": "string", "minLength":1 },
         "Region": {
         "type": "object",
+        "minLength":1,
         "properties": {
-            "Norte": { "$ref": "#/definitions/trimestre" },
-            "Centro": { "$ref": "#/definitions/trimestre" },
-            "Sur": { "$ref": "#/definitions/trimestre" }
+            "Norte": { "$ref": "#/definitions/trimestre", "minLength":1 },
+            "Centro": { "$ref": "#/definitions/trimestre", "minLength":1 },
+            "Sur": { "$ref": "#/definitions/trimestre", "minLength":1 }
             },
         "required": ["Norte", "Centro", "Sur"]
         }
@@ -37,10 +39,10 @@ schema = {
     "Trimestres": {
     "type": "object",
     "properties": {
-        "Trimestre1": { "$ref": "#/definitions/ventas" },
-        "Trimestre2": { "$ref": "#/definitions/ventas" },
-        "Trimestre3": { "$ref": "#/definitions/ventas" },
-        "Trimestre4": { "$ref": "#/definitions/ventas" }
+        "Trimestre1": { "$ref": "#/definitions/ventas", "minLength":1 },
+        "Trimestre2": { "$ref": "#/definitions/ventas", "minLength":1 },
+        "Trimestre3": { "$ref": "#/definitions/ventas", "minLength":1 },
+        "Trimestre4": { "$ref": "#/definitions/ventas", "minLength":1 }
     },
     "required": ["Trimestre1", "Trimestre2", "Trimestre3", "Trimestre4"]
     }
@@ -49,7 +51,7 @@ schema = {
     "ventas": {
     "type": "object",
     "properties": {
-    "librosVendidos": { "type": "string" }
+    "librosVendidos": { "type": "string", "minLength":1 }
     },
     "required": ["librosVendidos"]
     }
