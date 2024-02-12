@@ -19,12 +19,12 @@ schema = {
         "codigo": { "type": "string", "minLength":1 },
         "marca": { "type": "string" },
         "modelo": { "type": "string" },
-        "matricula": { "type": "string" },
+        "matricula": { "type": "string", "minLength":1},
         "potencia": { "type": "string" },
         "plazas": { "type": "string" },
         "puertas": { "type": "string" }
     },
-    "required": ["codigo"]
+    "required": ["codigo", "matricula"]
     }
     }
     },
