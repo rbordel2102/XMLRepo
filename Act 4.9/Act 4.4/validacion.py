@@ -8,37 +8,40 @@ schema = {
     "properties": {
     "Gestoria": {
     "type": "object",
+    "minLength":1,
     "properties": {
     "Sede": {
     "type": "object",
+    "minLength":1,
     "properties": {
-        "@codigo": { "type": "string" },
+        "@codigo": { "type": "string", "minLength":1 },
         "NombreEmpleado": { "type": "string" },
         "FechaAlta": { "type": "string", "format": "date" },
     "Cliente": {
     "type": "array",
+    "minLength":1,
     "items": {
     "type": "object",
     "properties": {
-        "@codigo": { "type": "string" },
+        "@codigo": { "type": "string", "minLength":1},
         "Descripcion": { "type": "string" },
         "NumViviendas": { "type": "string" },
         "vivienda": {
         "type": "object",
     "properties": {
-        "@id": { "type": "string" },
+        "@id": { "type": "string", "minLength":1},
         "CosteVivienda": { "type": "string" },
         "Resumen": { "type": "string" },
         "PlazoAlta": { "type": "string", "format": "date" }
     },
-    "required": ["@id", "CosteVivienda", "Resumen", "PlazoAlta"]
+    "required": ["@id"]
     }
     },
-    "required": ["@codigo", "Descripcion", "NumViviendas", "vivienda"]
+    "required": ["@codigo"]
     }
     }
     },
-    "required": ["@codigo", "NombreEmpleado", "FechaAlta", "Cliente"]
+    "required": ["@codigo", "Cliente"]
     }
     },
     "required": ["Sede"]

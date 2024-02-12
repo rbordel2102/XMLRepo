@@ -8,22 +8,24 @@ schema = {
     "properties": {
     "libreria": {
     "type": "object",
+    "minLength":1,
     "properties": {
     "libro": {
     "type": "array",
+    "minLength":1,
     "items": {
     "type": "object",
     "properties": {
-        "codigoLibro": { "type": "string" },
+        "codigoLibro": { "type": "string", "minLength":1 },
         "autor": { "type": "string" },
         "titulo": { "type": "string" },
         "editorial": { "type": "string" },
         "edicion": { "type": "string" },
         "fechaPublicacion": { "type": "string" },
-        "ISBN": { "type": "string" },
+        "ISBN": { "type": "string", "minLength":1 },
         "NumeroPaginas": { "type": "string" }
                },
-    "required": ["codigoLibro", "autor", "titulo", "editorial", "edicion", "fechaPublicacion", "ISBN", "NumeroPaginas"]
+    "required": ["codigoLibro", "ISBN"]
     }
     }
     },

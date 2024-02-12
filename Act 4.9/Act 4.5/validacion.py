@@ -8,17 +8,19 @@ schema = {
     "properties": {
     "DAM": {
     "type": "object",
+    "minLength":1,
     "properties": {
     "alumno": {
     "type": "array",
+    "minLength":1,
     "items": {
         "type": "object",
         "properties": {
-        "NIF": { "type": "string" },
-        "resultado": { "type": "string" },
+        "NIF": { "type": "string", "minLength":1 },
+        "resultado": { "type": "string", "minLength":1 },
         "observaciones": { "type": "string" },
-        "IP": { "type": "string" },
-        "MAC": { "type": "string" }
+        "IP": { "type": "string", "minLength":1 },
+        "MAC": { "type": "string", "minLength":1 }
         },
     "oneOf": [
     { "required": ["IP"] },

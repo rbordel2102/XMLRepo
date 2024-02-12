@@ -8,28 +8,35 @@ schema = {
     "properties": {
     "modulosDAM": {
     "type": "object",
+    "minLength":1,
     "properties": {
     "moduloProfesional": {
     "type": "array",
+    "minLength":1,
     "items": {
         "type": "object",
         "properties": {
         "nombre": {
-        "type": "string"
+        "type": "string",
+        "minLength":1
         },
         "contenidos": {
         "type": "object",
+        "minLength":1,
         "properties": {
         "unidadDidactica": {
         "type": "array",
+        "minLength":1,
         "items": {
         "type": "object",
         "properties": {
         "tipo": {
-        "type": "string"
+        "type": "string",
+        "minLength":1
         },
         "descripcion": {
-        "type": "string"
+        "type": "string",
+        "minLength":1
         }
         },
     "required": ["tipo", "descripcion"]

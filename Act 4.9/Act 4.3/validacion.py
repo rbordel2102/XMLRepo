@@ -8,13 +8,15 @@ schema = {
     "properties": {
     "consesionario": {
     "type": "object",
+    "minLength":1,
     "properties": {
     "coche": {
     "type": "array",
+    "minLength":1,
     "items": {
     "type": "object",
     "properties": {
-        "codigo": { "type": "string" },
+        "codigo": { "type": "string", "minLength":1 },
         "marca": { "type": "string" },
         "modelo": { "type": "string" },
         "matricula": { "type": "string" },
@@ -22,7 +24,7 @@ schema = {
         "plazas": { "type": "string" },
         "puertas": { "type": "string" }
     },
-    "required": ["codigo", "marca", "modelo", "matricula", "potencia", "plazas", "puertas"]
+    "required": ["codigo"]
     }
     }
     },
